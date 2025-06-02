@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="div-1">
+        <button onclick="getNumbers(1)" id="uno" class="uno">1</button>
+        <button onclick="getNumbers(2)"  id="dos" class="dos">2</button>
+        <button onclick="getNumbers(3)" id="tres" class="tres">3</button>
+        <button onclick="getNumbers(4)" id="cuatro" class="cuatro">4</button>
+        <button onclick="getNumbers(5)" id="cinco" class="cinco">5</button>
+        <button onclick="getNumbers(6)" id="seis" class="seis">6</button>
+        <button onclick="getNumbers(7)" id="siete" class="siete">7</button>
+        <button onclick="getNumbers(8)" id="ocho" class="ocho">8</button>
+        <button onclick="getNumbers(9)" id="nueve" class="nueve">9</button>
+        <button onclick="getNumbers(0)" id="cero" class="cero">0</button>
+        <button onclick="getNumbers('.')" id="punto"  class="punto">.</button>
+        <button onclick="limpiarPantalla()" id="ac"  class="ac">AC</button>
+        <!-- <button onclick="limpiarPantalla()" id="ac"  class="ac">AC</button> -->
+        <button onclick="operador(division)"  id="division" class="division">÷</button>
+        <button onclick="operador(suma)" id="suma" class="suma">+</button>
+        <button onclick="operador(resta)" id="resta" class="resta">-</button>
+        <button onclick="operador(multiplicacion)" id="multiplicacion"  class="multiplicacion">*</button>
+        <button onclick="resultado()" id="igual"  class="igual">=</button>
+        <div  id="pantalla"  class="pantalla"></div>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

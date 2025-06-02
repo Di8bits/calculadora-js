@@ -1,0 +1,95 @@
+.div-1 {
+    display:grid; 
+    grid-template-columns: 35px  35px 35px 35px;
+    grid-template-rows: 35px 35px 35px 35px 35px;
+   justify-content: center;
+    grid-gap: .5rem;
+
+}
+.uno {
+grid-row: 4 ;
+grid-column: 1;
+}
+.dos {
+grid-row: 4 ;
+grid-column: 2;
+}
+.tres {
+grid-row: 4 ;
+grid-column: 3;
+}
+.punto {
+grid-row: 5 ;
+grid-column: 1;
+}
+.cero {
+grid-row: 5 ;
+grid-column: 2;
+}
+.igual {
+grid-row: 5 ;
+grid-column: 3;
+}
+.suma {
+grid-row: 4 ;
+grid-column: 4;
+}
+
+.resta {
+grid-row: 5 ;
+grid-column: 4;
+}
+.cuatro {
+grid-row: 3 ;
+grid-column: 1;
+}
+.cinco {
+grid-row: 3 ;
+grid-column: 2;
+}
+
+.seis {
+grid-row: 3 ;
+grid-column: 3;
+}
+
+.multiplicacion {
+grid-row: 3 ;
+grid-column: 4;
+}
+
+
+.siete {
+grid-row: 2 ;
+grid-column: 1;
+}
+
+
+.ocho {
+grid-row: 2 ;
+grid-column: 2;
+}
+
+.nueve {
+grid-row: 2 ;
+grid-column: 3;
+}
+
+.ac {
+grid-row: 1 ;
+grid-column: 4
+}
+
+.division {
+grid-row: 2 ;
+grid-column: 4;
+}
+
+.pantalla {
+grid-row: 1 ;
+grid-column: 1/4;
+}
+button {
+    aspect-ratio: 1;
+}
+
